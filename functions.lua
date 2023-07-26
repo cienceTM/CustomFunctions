@@ -24,10 +24,11 @@ end
 
 
 function getexecutorname()
-if (exploit_name == "") then
-    exploit_name = "Axon"
-    else
-    return exploit_name
+    if (exploit_name == "") then
+        exploit_name = "Axon"
+        else
+        return exploit_name
+    end
 end
   
 function identifyexecutor()
@@ -65,4 +66,6 @@ local is_executor_closure = is_syn_closure or is_fluxus_closure or is_sentinel_c
 function unlockmodulescript()
     --dont need it useless shit lmao
 end
-  
+
+
+printidentity()
