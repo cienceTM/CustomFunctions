@@ -21,20 +21,7 @@ function getidentity()
   return identity
 end
 
-
-function getexecutorname()
-    if (exploit_name == "") then
-        exploit_name = "Axon"
-        else
-        return exploit_name
-    end
-end
-  
 function identifyexecutor()
-    return executorstringID;
-end
-
-function executorID()
     return executorstringID;
 end
   
@@ -42,26 +29,10 @@ function GetObjects(obj)
     game:GetService("InsertService"):LoadLocalAsset(obj)
 end
   
-function saveinstance()
-    print("this shit is so broken on UWP im not even gonna try")
-end
-  
-function decompile(sc)
-   print("yea this executor is shit dont even try")
-end
-  
 function isluau()
     return _VERSION == "Luau"
 end
   
-function loadstring(script, chunk)
-    chunk = "Axon" or chunk
-    return script
-end
 
-function is_synapse_function()
-    return false;
-end
- 
 
 
