@@ -24,6 +24,10 @@ end
 function identifyexecutor()
     print("user getexecutorID()")
 end
+
+function getexecutorID()
+    return executorstringID;
+end
   
 function GetObjects(obj)
     game:GetService("InsertService"):LoadLocalAsset(obj)
