@@ -15,6 +15,7 @@ function setidentity(id)
      identity = id
     end
 end
+local executorstringID = "Axon"
 
 function getidentity()
   return identity
@@ -30,7 +31,11 @@ function getexecutorname()
 end
   
 function identifyexecutor()
-    return exploit_name
+    return executorstringID;
+end
+
+function executorID()
+    return executorstringID;
 end
   
 function GetObjects(obj)
@@ -42,7 +47,7 @@ function saveinstance()
 end
   
 function decompile(sc)
-   print("uh oh! seems like game has luau! tell the fuckin owner to make his game better")
+   print("yea this executor is shit dont even try")
 end
   
 function isluau()
@@ -58,7 +63,5 @@ function is_synapse_function()
     return false;
 end
  
---STEAL THE CLOSURES IF POSSIBLE  
-local is_executor_closure = is_syn_closure or is_fluxus_closure or is_sentinel_closure or is_krnl_closure or is_proto_closure or is_calamari_closure or is_electron_closure or is_elysian_closure
- 
+
 
