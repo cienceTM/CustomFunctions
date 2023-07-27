@@ -3,6 +3,10 @@
 local exploit_name = "Axon" --put your exploit name
 local identity = 7 
 
+function identifyexecutor()
+    print("user getexecutorID()")
+end
+
 function printidentity()
   if (identity == 0) then identity = 7 else identity = identity end
   print("Current identity is "..identity)
@@ -21,9 +25,7 @@ function getidentity()
   return identity
 end
 
-function identifyexecutor()
-    print("user getexecutorID()")
-end
+
 
 function getexecutorID()
     return executorstringID
