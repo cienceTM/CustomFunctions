@@ -22,7 +22,7 @@ function getidentity()
 end
 
 function identifyexecutor()
-    return executorstringID;
+    print("user getexecutorID()")
 end
   
 function GetObjects(obj)
