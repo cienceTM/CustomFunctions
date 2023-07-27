@@ -1,9 +1,7 @@
---[[
-  some functions i stole lmaoooo
-]]
+
 
 local exploit_name = "Axon" --put your exploit name
-local identity = 7 --nothing higher then 7
+local identity = 7 
 
 function printidentity()
   if (identity == 0) then identity = 7 else identity = identity end
@@ -39,12 +37,12 @@ function GetObjects(obj)
     game:GetService("InsertService"):LoadLocalAsset(obj)
 end
   
-function saveinstance()--TIME TO DO SOME WORK SKID
-    error("saveinstance could not save this game")
+function saveinstance()
+    print("this shit is so broken on UWP im not even gonna try")
 end
   
-function decompile(sc)--ALSO FOR YOU SKID
-    return "uh oh! seems like game has luau! tell the fuckin owner to make his game better"
+function decompile(sc)
+   print("uh oh! seems like game has luau! tell the fuckin owner to make his game better")
 end
   
 function isluau()
@@ -57,15 +55,10 @@ function loadstring(script, chunk)
 end
 
 function is_synapse_function()
-    --CURSED TO TRICK SCRIPTS LMAO
+    return false;
 end
  
 --STEAL THE CLOSURES IF POSSIBLE  
 local is_executor_closure = is_syn_closure or is_fluxus_closure or is_sentinel_closure or is_krnl_closure or is_proto_closure or is_calamari_closure or is_electron_closure or is_elysian_closure
  
-function unlockmodulescript()
-    --dont need it useless shit lmao
-end
 
-
-printidentity()
