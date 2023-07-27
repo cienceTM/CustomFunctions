@@ -4,7 +4,7 @@ local exploit_name = "Axon" --put your exploit name
 local identity = 7 
 
 function identifyexecutor()
-    print("user getexecutorID()")
+    return executorstringID;
 end
 
 function printidentity()
@@ -28,7 +28,7 @@ end
 
 
 function getexecutorID()
-    return executorstringID
+     return executorstringID;
 end
   
 function GetObjects(obj)
