@@ -26,7 +26,7 @@ function identifyexecutor()
 end
 
 function getexecutorID()
-    return executorstringID;
+    return executorstringID
 end
   
 function GetObjects(obj)
