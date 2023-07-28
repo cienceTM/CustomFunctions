@@ -21,11 +21,7 @@ function setidentity(id)
 end
 
 function getidentity()
-  return identity
-end
-  
-function GetObjects(obj)
-    game:GetService("InsertService"):LoadLocalAsset(obj)
+  return identity;
 end
   
 function isluau()
