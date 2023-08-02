@@ -1,8 +1,8 @@
 
 
-local exploit_name = "Axon" --put your exploit name
+local exploit_name = "Anchor" --put your exploit name
 local identity = 7 
-local string = "Axon"
+local string = "Anchor"
 function printidentity()
   if (identity == 0) then identity = 7 else identity = identity end
   print("Current identity is "..identity)
